@@ -1,0 +1,4 @@
+/vendor
+/build
+*.lock
+.env

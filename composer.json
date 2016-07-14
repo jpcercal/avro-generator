@@ -1,0 +1,29 @@
+{
+    "name": "jpcercal/avro-generator",
+    "description": "My avro generator",
+    "keywords": [
+        "avro",
+        "generator",
+        "console"
+    ],
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4",
+        "symfony/console": "^2.8",
+        "cekurte/environment": "^0.2.2",
+        "vlucas/phpdotenv": "^2.2"
+    },
+    "authors": [
+        {
+            "name": "João Paulo Cercal",
+            "email": "jpcercal@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Cekurte\\Avro\\Generator\\": "src/"
+        }
+    }
+}
