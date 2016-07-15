@@ -36,7 +36,7 @@ class ConnectionFactory
 
             return $connection;
         } catch(\PDOException $e) {
-            throw new DatabaseException('Error connecting to SQL Server', 1, $e);
+            throw new DatabaseException(sprintf('Error connecting to SQL Server (%s)', $e->getMessage()), 1, $e);
         }
     }
 }
